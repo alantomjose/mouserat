@@ -33,9 +33,15 @@
 	#heading-text{
 		color:white;
 		text-align: center;
-        font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Nothing You Could Do', cursive;
 		font-size: 100px;
 		margin : 35vh auto;
+		transition-property: color;
+	 transition-duration: 1s;
+	 transition-timing-function: linear;
+	}
+	#heading-text:hover{
+		color: #a8ff75;
 	}
 
 	#scroll{
